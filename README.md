@@ -65,7 +65,7 @@ PORT=4000
 FRONTEND_URL=http://localhost:3000
 EOF
 
-node server.js
+npm run dev
 ```
 
 ### 3 — Frontend

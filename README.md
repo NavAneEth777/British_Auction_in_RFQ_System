@@ -157,3 +157,6 @@ british-auction-rfq/
 - **Backend:** Node.js, Express, Socket.io
 - **Database:** PostgreSQL 15 (generated columns, trigger functions, partial indexes)
 - **Infrastructure:** Docker, Docker Compose
+
+<!-- to CASCADE DATA -->
+psql -d gocomet_auction -c "TRUNCATE bids, auction_activity_log CASCADE;"

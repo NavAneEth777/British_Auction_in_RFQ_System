@@ -1,0 +1,14 @@
+{
+  "name": "british_auction_in_rfq_system",
+  "version": "1.0.0",
+  "description": "A real-time freight procurement platform where suppliers compete by **lowering prices**. Built with React, Node.js, Socket.io, and PostgreSQL.",
+  "main": "index.js",
+  "scripts": {},
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@playwright/test": "^1.60.0",
+    "@types/node": "^25.9.2"
+  }
+}
